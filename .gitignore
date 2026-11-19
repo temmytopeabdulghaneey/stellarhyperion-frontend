@@ -8,14 +8,11 @@ next-env.d.ts
 *.tsbuildinfo
 
 # env: only .env.example is ever committed
-.env
-.env.*
 !.env.example
 
 # editors and os
 .DS_Store
 .idea
-.vscode
 
 # the icon contact sheet is a look-at-it artefact, not a deliverable
 public/.icon-contact-sheet.png
@@ -24,4 +21,4 @@ public/.icon-contact-sheet.png
 __pycache__/
 *.pyc
 .vercel
-.env*
+config.bat
